@@ -97,11 +97,19 @@ Cơ chế hoạt động gồm:
 2. Mỗi gói tin được xử lý (`process_packet`) → trích xuất đặc trưng → đưa vào mô hình LSTM.  <img width="940" height="319" alt="image" src="https://github.com/user-attachments/assets/1aeb9741-356b-42c8-909b-2ecaafd53b94" />
 
 3. Nếu bị phát hiện tấn công:
-   - Ghi log cảnh báo thời gian thực.  
-   - Chặn IP bằng lệnh hệ thống (`netsh`).  
-   - Lưu danh sách IP bị chặn vào `blocked.txt`.  
+   - Ghi log cảnh báo thời gian thực.
+     <img width="940" height="182" alt="image" src="https://github.com/user-attachments/assets/0dc7fdc4-b1af-47b4-aa71-4c4c70298377" />
+
+   - Chặn IP bằng lệnh hệ thống (`netsh`).
+     <img width="940" height="261" alt="image" src="https://github.com/user-attachments/assets/c7197f70-d3f1-4ad5-bb57-28468439a470" />
+ 
+   - Lưu danh sách IP bị chặn vào `blocked.txt`.
+     <img width="940" height="255" alt="image" src="https://github.com/user-attachments/assets/aeffb257-7def-414b-b801-5a25f14cec1b" />
+
 4. Giao diện Web cung cấp:
-   - `/alerts` – Danh sách cảnh báo.  
+   - `/alerts` – Danh sách cảnh báo.
+     <img width="940" height="426" alt="image" src="https://github.com/user-attachments/assets/648cfeac-ec12-40f3-b86f-e4510c1c78a7" />
+
    - `/blocked` – IP bị chặn.  
    - `/unblock` – Mở chặn IP.
 
