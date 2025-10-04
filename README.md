@@ -38,6 +38,8 @@ Các cơ chế được sử dụng bao gồm: Phòng thủ dựa trên bất th
 4. Thực nghiệm Hệ thống Demo (IDS/IPS)
 4.1. Cấu hình Thực nghiệm
 Hệ thống được thiết lập trong môi trường mô phỏng:
+<img width="963" height="522" alt="image" src="https://github.com/user-attachments/assets/08f7c09c-9186-4ddf-a36a-88c4123ea224" />
+
 • Máy Tấn công: Kali Linux (IP: 192.168.2.52), vai trò khởi tạo tấn công.
 • Máy Phòng thủ/Web Server: Windows 10 (IP: 192.168.2.51), chạy Web Server và mô hình LSTM phát hiện tấn công.
 4.2. Cách thức Hoạt động
