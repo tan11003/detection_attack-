@@ -119,5 +119,7 @@ Cơ chế hoạt động gồm:
 
 ---
 
-## 📦 Cấu trúc thư mục (tham khảo)
+## 🧑‍💻 Liên hệ **Tác giả:** Huỳnh Trần Nhật Tân
+📧 Email: *huynhtrannhattann@gmail.com* 
+📍 Học viện Công nghệ Bưu chính Viễn thông (PTIT) 
 
