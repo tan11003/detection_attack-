@@ -85,6 +85,8 @@ Cơ chế hoạt động gồm:
 ## 🧪 Hệ thống Demo IDS/IPS
 
 ### 💻 Môi trường thử nghiệm
+<img width="963" height="522" alt="image" src="https://github.com/user-attachments/assets/33450a2f-0f8e-44a2-8d6a-2a8f1774a35b" />
+
 | Vai trò | Hệ điều hành | IP |
 |:---------|:--------------|:--|
 | Máy tấn công | Kali Linux | 192.168.2.52 |
@@ -92,7 +94,8 @@ Cơ chế hoạt động gồm:
 
 ### 🔄 Quy trình hoạt động
 1. Flask Web Server khởi chạy cùng luồng bắt gói tin TCP (`sniff_thread_func`).  
-2. Mỗi gói tin được xử lý (`process_packet`) → trích xuất đặc trưng → đưa vào mô hình LSTM.  
+2. Mỗi gói tin được xử lý (`process_packet`) → trích xuất đặc trưng → đưa vào mô hình LSTM.  <img width="940" height="319" alt="image" src="https://github.com/user-attachments/assets/1aeb9741-356b-42c8-909b-2ecaafd53b94" />
+
 3. Nếu bị phát hiện tấn công:
    - Ghi log cảnh báo thời gian thực.  
    - Chặn IP bằng lệnh hệ thống (`netsh`).  
